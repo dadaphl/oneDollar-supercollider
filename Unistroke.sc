@@ -3,11 +3,11 @@ Unistroke {
 	*new { arg nname, ppoints;
 		var radians;
 		name = nname;
-		this.points = Dollar.resample(ppoints, Dollar.numpoints);
-		radians     = Dollar.indicativeAngle(this.points);
-		this.points = Dollar.rotateBy(this.points,  -1 * (Dollar.radians) );
-		this.points = Dollar.scaleTo(this.points, Dollar.squareSize);
-		this.points = Dollar.translateTo(this.points, Dollar.origin);
-		this.vector = Dollar.vectorize(this.points);
+		this.points = DollarRecognizer.resample(ppoints, DollarRecognizer.numpoints);
+		radians     = DollarRecognizer.indicativeAngle(this.points);
+		this.points = DollarRecognizer.rotateBy(this.points,  -1 * (DollarRecognizer.radians) );
+		this.points = DollarRecognizer.scaleTo(this.points, DollarRecognizer.squareSize);
+		this.points = DollarRecognizer.translateTo(this.points, DollarRecognizer.origin);
+		this.vector = DollarRecognizer.vectorize(this.points);
 	}
 }
