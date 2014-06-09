@@ -111,7 +111,7 @@ DollarRecognizer {
 		this.numPoints = 64;
 		this.squareSize = 250.0;
 		this.origin = Point.new(0,0);
-		this.diagonal = sqrt(this.squareSize * this.squareSize + this.squareSize * this.squareSize);
+		this.diagonal = sqrt((this.squareSize * this.squareSize) + (this.squareSize * this.squareSize));
 		this.halfDiagonal = 0.5 * this.diagonal;
 		this.angleRange = degrad(45.0);
 		this.anglePrecision = degrad(2.0);
