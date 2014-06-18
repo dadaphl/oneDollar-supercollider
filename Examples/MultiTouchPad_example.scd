@@ -2,7 +2,7 @@
 MultiTouchPad.stop;
 */
 // general load, MTP startup
-/*(
+(
 q = q ? ();
 q.paths = Dictionary.new;
 s.latency = 0.03;
@@ -54,4 +54,4 @@ MultiTouchPad.guiWin.view.keyDownAction = { |view, char|
 	if (char == $x) { MultiTouchPad.guiWin.fullScreen };
 	if (char == $m) { MultiTouchPad.guiWin.endFullScreen };
 };
-)*/
+)
