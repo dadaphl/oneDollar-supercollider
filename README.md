@@ -1,4 +1,4 @@
-# OneDollar SuperCollider Port
+# One Dollar gesture recognizer - SuperCollider port
 
 A SuperColloder (sclang) port of the JavaScript $1 Unistroke Recognizer.
 
