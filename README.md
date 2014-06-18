@@ -14,22 +14,8 @@ Clone [this repository](https://github.com/dadaphl/oneDollar-supercollider.git) 
 ```
 (
   p = [
-  	 Point.new( 54, 19 )
-  	,Point.new( 52, 20 )
-  	,Point.new( 51, 21 )
-  	,Point.new( 49, 21 )
-  	,Point.new( 47, 22 )
-  	,Point.new( 46, 23 )
-  	,Point.new( 44, 24 )
-  	,Point.new( 43, 24 )
-  	,Point.new( 36, 36 )
-  	,Point.new( 33, 49 )
-  	,Point.new( 37, 62 )
-  	,Point.new( 49, 66 )
-  	,Point.new( 58, 57 )
-  	,Point.new( 61, 44 )
-  	,Point.new( 57, 31 )
-  	,Point.new( 45, 28 )
+    54@19,52@20,51@21,49@21,47@22,46@23,44@24,43@24,
+    36@36,33@49,37@62,49@66,58@57,61@44,57@31,45@28
   ];
   d = DollarRecognizer.new ;
   r = d.recognize( p , false);
